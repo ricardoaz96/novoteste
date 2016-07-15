@@ -25,7 +25,7 @@ The main idea of this project is to have easy and out-of-the-box working example
 Therefore the tutorial is splitted into really small sections and is always only using those _Keywords_ that are part of the Robot Framework out-of-the-box. Thus no additional installation is required beside having a running _Robot Framework_ installation and forking/cloning this repository to try around with the examples.
 I hope this tutorial can help on the one hand side to get a basic understanding how _Testsuites_ are written with the _Robot Framework_ using _Keywords_. Furthermore this might serve as a quick reference for more experienced users to just quickly take a look on how a certain feature is used (or a certain syntax).
 
-__Note:__ All examples are shortly explained in the following and it is shown how to start the example either using _pybot_ or the _Java installation_ of the _Robot Framework_. It is required that _pybot_ can be found from the PATH on your machine for this to work and the path to the Robot-JAR will most likely differ ;-). __It is expected that the execution is always triggered from the directory containing the _Testsuite_-files.__
+__Note:__ All examples are shortly explained in the following and it is shown how to start the example either using _robot_ or the _Java installation_ of the _Robot Framework_. It is required that _robot_ can be found from the PATH on your machine for this to work and the path to the Robot-JAR will most likely differ ;-). __It is expected that the execution is always triggered from the directory containing the _Testsuite_-files.__
 
 [top](#toc)
 
