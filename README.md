@@ -114,7 +114,7 @@ java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./r
 This example shows the usage of variable files. This is especially useful to define certain values (like URLs or database connections) differently for different test environments. The variable files are then passed in via a command line option.
 
 __Test execution__  | [VIEW FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample-3-variables/sample-2-variables-file.txt) | [VIEW LOCAL VARIABALE FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample-3-variables/variable-file-env-local.py) | [VIEW TEST VARIABLE FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample-3-variables/variable-file-env-test.py)      
-pybot --outputdir ./report --variablefile ./variable-file-env-local.py sample-2-variables-file.txt  
+robot --outputdir ./report --variablefile ./variable-file-env-local.py sample-2-variables-file.txt  
 java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./report --variablefile ./variable-file-env-local.py sample-2-variables-file.txt
 
 __Note:__ Change the variable-file passed in and take a look at the resulting log-file.
@@ -213,7 +213,7 @@ The documentation for the Database Library is part of this tutorial and can be f
 
 ----------------------------------------------------------------------------------------------------------------
 
-This example shows the usage of the [Java Database Library](https://github.com/ThomasJaspers/robotframework-dblibrary) for the Robot Framework. Please note that execution via pybot is not possible, but the next example shows the usage of the Database Library as a Remote Library. Then pybot can be used again.
+This example shows the usage of the [Java Database Library](https://github.com/ThomasJaspers/robotframework-dblibrary) for the Robot Framework. Please note that execution via __robot__ is not possible, but the next example shows the usage of the Database Library as a Remote Library. Then __robot__ can be used again.
 
 __Test execution__  | [VIEW FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample-8-database/sample-0-database.txt)      
 
