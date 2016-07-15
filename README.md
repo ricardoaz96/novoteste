@@ -235,7 +235,7 @@ java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./r
 <a name="sample-9-file-processing"></a>
 ## sample-9-file-processing
 
-This example shows how to do some more complex file processing using the Robot Framework. It starts with a small example and the continues by extending this example.
+This example shows how to do some more complex file processing using the Robot Framework. It starts with a small example and the continues by extending this example. Please take also a look at the [corresponding blog post for more information](https://blog.codecentric.de/en/2016/07/robot-framework-tutorial-2016-file-processing/).
 
 __Test execution__  | [VIEW FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample-9-file-processing/sample-9-reading-text-file.txt)      
 robot --outputdir ./report sample-9-reading-text-file.txt  
