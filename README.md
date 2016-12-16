@@ -281,7 +281,7 @@ java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./r
 
 Add some examples how to work with dictionaries.
 
-__Test execution__  | [VIEW FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample10-collections/sample-2-dictionary.txt)      
+__Test execution__  | [VIEW FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample-10-collections/sample-2-dictionary.txt)      
 robot --outputdir ./report sample-2-dictionary.txt   
 java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./report sample-2-dictionary.txt   
 
