@@ -15,6 +15,7 @@
 * [sample-7-conditional-execution](#sample-7-conditional-execution)
 * [sample-8-database](#sample-8-database)
 * [sample-9-file-processing](#sample-9-file-processing)
+* [sample-10-collections](#sample-10-collections)
 
 
 <a name="introduction"></a>
@@ -258,3 +259,31 @@ robot --outputdir ./report sample-9-processing-text-file-1.txt
 java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./report sample-9-processing-text-file-1.txt  
 
 [top](#toc)
+
+<a name="sample-10-collections"></a>
+## sample-10-collections
+
+This example shows some basic usage of the Robot Framework Collections-library Please take also a look at the [corresponding blog post for more information](https://blog.codecentric.de/en/2016/07/robot-framework-tutorial-2016-file-processing/).
+
+__Test execution__  | [VIEW FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample-10-collections/sample-0-simple-list.txt)      
+robot --outputdir ./report sample-0-simple-list.txt
+java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./report sample-0-simple-list.txt
+
+----------------------------------------------------------------------------------------------------------------
+
+Some more advanced examples for working with Lists.
+
+__Test execution__  | [VIEW FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample-10-collections/sample-1-complex-list.txt)      
+robot --outputdir ./report sample-1-complex-list.txt    
+java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./report sample-1-complex-list.txt  
+
+----------------------------------------------------------------------------------------------------------------
+
+Add some examples how to work with dictionaries.
+
+__Test execution__  | [VIEW FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample10-collections/sample-2-dictionary.txt)      
+robot --outputdir ./report sample-2-dictionary.txt   
+java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./report sample-2-dictionary.txt  
+
+[top](#toc)
+
