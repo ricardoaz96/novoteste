@@ -263,7 +263,7 @@ java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./r
 <a name="sample-10-collections"></a>
 ## sample-10-collections
 
-This example shows some basic usage of the Robot Framework Collections-library Please take also a look at the [corresponding blog post for more information](https://blog.codecentric.de/en/2016/07/robot-framework-tutorial-2016-file-processing/).
+This example shows some basic usage of the Robot Framework Collections-library Please take also a look at the [corresponding blog post for more information](https://blog.codecentric.de/en/2016/12/robot-framework-tutorial-2016-working-with-collections/).
 
 __Test execution__  | [VIEW FILE](https://github.com/ThomasJaspers/robot-keyword-tutorial/blob/master/sample-10-collections/sample-0-simple-list.txt)      
 robot --outputdir ./report sample-0-simple-list.txt   
