@@ -34,9 +34,9 @@ __Note:__ All examples are shortly explained in the following and it is shown ho
 <a name="installation-update"></a>
 ## Installation and Update
 
-The most convenient way to install the Robot Framework is using the [Python package manager "pip"](https://pypi.python.org/pypi/pip).
+The most convenient way to install the _Robot Framework_ is using the [Python package manager "pip"](https://pypi.python.org/pypi/pip).
 
-To install the Robot Framework, RIDE and the Selenium2 Test Library just execute:
+To install the _Robot Framework_, _RIDE_ and the _Selenium2 Test Library_ just execute:
 
 pip install robotframework      
 pip install robotframework-selenium2library      
@@ -47,9 +47,8 @@ Using "pip list" it is possible to get information on all installed packages.
 With the following commands it is possible to trigger an update installation.
 
 pip install robotframework --upgrade   
-pip install robotframework-selenium2library   --upgrade   
+pip install robotframework-selenium2library  --upgrade   
 pip install robotframework-ride --upgrade   
-
 
 [top](#toc)
 
