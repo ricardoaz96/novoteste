@@ -5,6 +5,7 @@
 ## Table of Contents
 
 * [Introduction](#introduction)
+* [Installation and Update](#installation-update)
 * [sample-0-trivial](#sample-0-trivial)
 * [sample-1-own-keyword](#sample-1-own-keyword)
 * [sample-2-remote-keywords](#sample-2-remote-keywords)
@@ -27,6 +28,26 @@ Therefore the tutorial is splitted into really small sections and is always only
 I hope this tutorial can help on the one hand side to get a basic understanding how _Testsuites_ are written with the _Robot Framework_ using _Keywords_. Furthermore this might serve as a quick reference for more experienced users to just quickly take a look on how a certain feature is used (or a certain syntax).
 
 __Note:__ All examples are shortly explained in the following and it is shown how to start the example either using _robot_ or the _Java installation_ of the _Robot Framework_. It is required that _robot_ can be found from the PATH on your machine for this to work and the path to the Robot-JAR will most likely differ ;-). __It is expected that the execution is always triggered from the directory containing the _Testsuite_-files.__
+
+[top](#toc)
+
+<a name="installation-update"></a>
+## Installation and Update
+
+The most convenient way to install the Robot Framework is using the [Python package manager "pip"](https://pypi.python.org/pypi/pip).
+
+To install the Robot Framework, RIDE and the Selenium2 Test Library just execute:
+
+'''
+pip install robotframework      
+pip install robotframework-selenium2library      
+pip install robotframework-ride
+'''
+
+'''
+sudo pip install robotframework --upgrade
+'''
+
 
 [top](#toc)
 
@@ -206,7 +227,7 @@ java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./r
 <a name="sample-8-database"></a>
 ## sample-8-database
 
-__Note:__ This example differs from the previous examples of this tutorial, as it requires a database to be setup and running. In this case PostgreSQL is used with an example that is described here: [https://github.com/ThomasJaspers/db_liquibase_sample](https://github.com/ThomasJaspers/db_liquibase_sample) 
+__Note:__ This example differs from the previous examples of this tutorial, as it requires a database to be setup and running. In this case PostgreSQL is used with an example that is described here: [https://github.com/ThomasJaspers/db_liquibase_sample](https://github.com/ThomasJaspers/db_liquibase_sample)
 
 The example can of course be easily changed to user another database and other tables by replacing the JDBC-driver and adepting the tests.
 
@@ -286,4 +307,3 @@ robot --outputdir ./report sample-2-dictionary.txt
 java -jar /usr/local/opt/robotframework/robotframework-2.9.2.jar --outputdir ./report sample-2-dictionary.txt   
 
 [top](#toc)
-
