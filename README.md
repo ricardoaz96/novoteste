@@ -38,15 +38,17 @@ The most convenient way to install the Robot Framework is using the [Python pack
 
 To install the Robot Framework, RIDE and the Selenium2 Test Library just execute:
 
-'''
 pip install robotframework      
 pip install robotframework-selenium2library      
 pip install robotframework-ride
-'''
 
-'''
-sudo pip install robotframework --upgrade
-'''
+Using "pip list" it is possible to get information on all installed packages.
+
+With the following commands it is possible to trigger an update installation.
+
+pip install robotframework --upgrade   
+pip install robotframework-selenium2library   --upgrade   
+pip install robotframework-ride --upgrade   
 
 
 [top](#toc)
