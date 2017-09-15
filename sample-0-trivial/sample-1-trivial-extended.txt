@@ -4,7 +4,7 @@ Library     String
 
 *** Test Cases ***
 Test Robot Framework Logging
-  Log   Test Logging
+  Log  Test Logging
   Log Many  First Entry   Second Entry
   Log To Console  Display to console while Robot is running
 
@@ -13,3 +13,4 @@ Test For Loop
     \    Log    ${INDEX}
     \    ${RANDOM_STRING}=    Generate Random String    ${INDEX}
     \    Log    ${RANDOM_STRING}
+    Log  Wir sind nach dem For Loop
